@@ -19,6 +19,11 @@ local plugins = {
     'dracula/vim',
     lazy = false,
   },
+  {
+   "lalitmee/cobalt2.nvim",
+    event = { "ColorSchemePre" }, -- if you want to lazy load
+    dependencies = { "tjdevries/colorbuddy.nvim" },
+  },
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
@@ -33,11 +38,24 @@ local plugins = {
 
   -- my custom plugins
   'stevearc/oil.nvim',
+  'lukas-reineke/indent-blankline.nvim',
+  'windwp/nvim-autopairs',
+  'lukas-reineke/lsp-format.nvim',
+  'xiyaowong/transparent.nvim',
+  'folke/lsp-colors.nvim',
+  "folke/trouble.nvim",
+  'mhartington/oceanic-next',
+  'f-person/git-blame.nvim',
+  'Ostralyan/scribe.nvim',
+  'nvim-lua/popup.nvim',
+  'sitiom/nvim-numbertoggle',
+  'nyngwang/NeoTerm.lua',
 
   -- rust babyyyyyyy
   'mfussenegger/nvim-dap',
   'rcarriga/nvim-dap-ui',
   'simrat39/rust-tools.nvim',
+  'kylechui/nvim-surround',
 
   -- completion
   'hrsh7th/nvim-cmp',
