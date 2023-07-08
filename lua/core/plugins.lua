@@ -31,6 +31,9 @@ local plugins = {
   'tpope/vim-fugitive',
   'tpope/vim-commentary',
 
+  -- my custom plugins
+  'stevearc/oil.nvim',
+
   -- rust babyyyyyyy
   'mfussenegger/nvim-dap',
   'rcarriga/nvim-dap-ui',

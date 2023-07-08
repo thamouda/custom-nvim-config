@@ -42,3 +42,7 @@ require("lspconfig").solargraph.setup {
 require("lspconfig").pyright.setup {
   capabilities = capabilities,
 }
+
+require('lspconfig').perlpls.setup {
+  capabilities = capabilities,
+}
